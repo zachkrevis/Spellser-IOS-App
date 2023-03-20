@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3F48C6828FA9FC700D7B18C /* SpellsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F48C6728FA9FC700D7B18C /* SpellsterTests.swift */; };
+		F3F48C7228FA9FC700D7B18C /* SpellsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F48C7128FA9FC700D7B18C /* SpellsterUITests.swift */; };
+		F3F48C7428FA9FC700D7B18C /* SpellsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F48C7328FA9FC700D7B18C /* SpellsterUITestsLaunchTests.swift */; };
+		F3F48C8128FA9FFA00D7B18C /* Spellster in Resources */ = {isa = PBXBuildFile; fileRef = F3F48C8028FA9FF900D7B18C /* Spellster */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3F48C6428FA9FC700D7B18C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F48C4B28FA9FC600D7B18C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F48C5228FA9FC600D7B18C;
+			remoteInfo = Spellster;
+		};
+		F3F48C6E28FA9FC700D7B18C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F48C4B28FA9FC600D7B18C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F48C5228FA9FC600D7B18C;
+			remoteInfo = Spellster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3F48C5328FA9FC600D7B18C /* Spellster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F48C6328FA9FC700D7B18C /* SpellsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F48C6728FA9FC700D7B18C /* SpellsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsterTests.swift; sourceTree = "<group>"; };
+		F3F48C6D28FA9FC700D7B18C /* SpellsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F48C7128FA9FC700D7B18C /* SpellsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsterUITests.swift; sourceTree = "<group>"; };
+		F3F48C7328FA9FC700D7B18C /* SpellsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3F48C8028FA9FF900D7B18C /* Spellster */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Spellster; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F48C5028FA9FC600D7B18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F48C6028FA9FC700D7B18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F48C6A28FA9FC700D7B18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F48C4A28FA9FC600D7B18C = {
+			isa = PBXGroup;
+			children = (
+				F3F48C8028FA9FF900D7B18C /* Spellster */,
+				F3F48C6628FA9FC700D7B18C /* SpellsterTests */,
+				F3F48C7028FA9FC700D7B18C /* SpellsterUITests */,
+				F3F48C5428FA9FC600D7B18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F48C5428FA9FC600D7B18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F48C5328FA9FC600D7B18C /* Spellster.app */,
+				F3F48C6328FA9FC700D7B18C /* SpellsterTests.xctest */,
+				F3F48C6D28FA9FC700D7B18C /* SpellsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F48C6628FA9FC700D7B18C /* SpellsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F48C6728FA9FC700D7B18C /* SpellsterTests.swift */,
+			);
+			path = SpellsterTests;
+			sourceTree = "<group>";
+		};
+		F3F48C7028FA9FC700D7B18C /* SpellsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F48C7128FA9FC700D7B18C /* SpellsterUITests.swift */,
+				F3F48C7328FA9FC700D7B18C /* SpellsterUITestsLaunchTests.swift */,
+			);
+			path = SpellsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F48C5228FA9FC600D7B18C /* Spellster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F48C7728FA9FC700D7B18C /* Build configuration list for PBXNativeTarget "Spellster" */;
+			buildPhases = (
+				F3F48C4F28FA9FC600D7B18C /* Sources */,
+				F3F48C5028FA9FC600D7B18C /* Frameworks */,
+				F3F48C5128FA9FC600D7B18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spellster;
+			productName = Spellster;
+			productReference = F3F48C5328FA9FC600D7B18C /* Spellster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3F48C6228FA9FC700D7B18C /* SpellsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F48C7A28FA9FC700D7B18C /* Build configuration list for PBXNativeTarget "SpellsterTests" */;
+			buildPhases = (
+				F3F48C5F28FA9FC700D7B18C /* Sources */,
+				F3F48C6028FA9FC700D7B18C /* Frameworks */,
+				F3F48C6128FA9FC700D7B18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F48C6528FA9FC700D7B18C /* PBXTargetDependency */,
+			);
+			name = SpellsterTests;
+			productName = SpellsterTests;
+			productReference = F3F48C6328FA9FC700D7B18C /* SpellsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3F48C6C28FA9FC700D7B18C /* SpellsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F48C7D28FA9FC700D7B18C /* Build configuration list for PBXNativeTarget "SpellsterUITests" */;
+			buildPhases = (
+				F3F48C6928FA9FC700D7B18C /* Sources */,
+				F3F48C6A28FA9FC700D7B18C /* Frameworks */,
+				F3F48C6B28FA9FC700D7B18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F48C6F28FA9FC700D7B18C /* PBXTargetDependency */,
+			);
+			name = SpellsterUITests;
+			productName = SpellsterUITests;
+			productReference = F3F48C6D28FA9FC700D7B18C /* SpellsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F48C4B28FA9FC600D7B18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F3F48C5228FA9FC600D7B18C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F3F48C6228FA9FC700D7B18C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F3F48C5228FA9FC600D7B18C;
+					};
+					F3F48C6C28FA9FC700D7B18C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F3F48C5228FA9FC600D7B18C;
+					};
+				};
+			};
+			buildConfigurationList = F3F48C4E28FA9FC600D7B18C /* Build configuration list for PBXProject "Spellster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F48C4A28FA9FC600D7B18C;
+			productRefGroup = F3F48C5428FA9FC600D7B18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F48C5228FA9FC600D7B18C /* Spellster */,
+				F3F48C6228FA9FC700D7B18C /* SpellsterTests */,
+				F3F48C6C28FA9FC700D7B18C /* SpellsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F48C5128FA9FC600D7B18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F48C8128FA9FFA00D7B18C /* Spellster in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F48C6128FA9FC700D7B18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F48C6B28FA9FC700D7B18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F48C4F28FA9FC600D7B18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F48C5F28FA9FC700D7B18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F48C6828FA9FC700D7B18C /* SpellsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F48C6928FA9FC700D7B18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F48C7228FA9FC700D7B18C /* SpellsterUITests.swift in Sources */,
+				F3F48C7428FA9FC700D7B18C /* SpellsterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3F48C6528FA9FC700D7B18C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F48C5228FA9FC600D7B18C /* Spellster */;
+			targetProxy = F3F48C6428FA9FC700D7B18C /* PBXContainerItemProxy */;
+		};
+		F3F48C6F28FA9FC700D7B18C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F48C5228FA9FC600D7B18C /* Spellster */;
+			targetProxy = F3F48C6E28FA9FC700D7B18C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3F48C7528FA9FC700D7B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3F48C7628FA9FC700D7B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F48C7828FA9FC700D7B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spellster/Preview Content\"";
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZKrevis.Spellster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F3F48C7928FA9FC700D7B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spellster/Preview Content\"";
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZKrevis.Spellster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F3F48C7B28FA9FC700D7B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZKrevis.SpellsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spellster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spellster";
+			};
+			name = Debug;
+		};
+		F3F48C7C28FA9FC700D7B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZKrevis.SpellsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spellster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spellster";
+			};
+			name = Release;
+		};
+		F3F48C7E28FA9FC700D7B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZKrevis.SpellsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spellster;
+			};
+			name = Debug;
+		};
+		F3F48C7F28FA9FC700D7B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZKrevis.SpellsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spellster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F48C4E28FA9FC600D7B18C /* Build configuration list for PBXProject "Spellster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F48C7528FA9FC700D7B18C /* Debug */,
+				F3F48C7628FA9FC700D7B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F48C7728FA9FC700D7B18C /* Build configuration list for PBXNativeTarget "Spellster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F48C7828FA9FC700D7B18C /* Debug */,
+				F3F48C7928FA9FC700D7B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F48C7A28FA9FC700D7B18C /* Build configuration list for PBXNativeTarget "SpellsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F48C7B28FA9FC700D7B18C /* Debug */,
+				F3F48C7C28FA9FC700D7B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F48C7D28FA9FC700D7B18C /* Build configuration list for PBXNativeTarget "SpellsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F48C7E28FA9FC700D7B18C /* Debug */,
+				F3F48C7F28FA9FC700D7B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F48C4B28FA9FC600D7B18C /* Project object */;
+}
